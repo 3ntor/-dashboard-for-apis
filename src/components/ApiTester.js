@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './ApiTester.css';
-import { API_URL } from '../App';
 
 const ApiTester = () => {
   const [method, setMethod] = useState('GET');
